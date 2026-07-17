@@ -38,6 +38,13 @@ We extensively evaluated 20 mainstream closed-source (e.g., Gemini 2.5, GPT-5.1)
 * **Current Limitations:** MLLMs face fundamental challenges in performing cultural understanding in Dunhuang art. The top-performing model (InternVL3.5-241B-A28B) achieved an average score of only 50.9%.
 * **Task Difficulty:** There is a consistent performance drop from basic visual perception to multi-turn knowledge reasoning.
 * **Prompting Shortfalls:** Standard reasoning techniques like Chain-of-Thought (CoT) and few-shot prompting exhibited marginal or even negative impacts on performance, highlighting the limits of prompting-based improvements without strong visual grounding.
+* 
+## 📑 Access Protocol
+
+To access the dataset, please:  
+1. **Fill in the Data Usage Agreement Form** [![Agreement](https://img.shields.io/badge/Agreement-Form-blue)](https://github.com/AI4Culture/DunhuangBench/blob/main/Application-Form.docx)
+2. After review, you will receive the **password** via email.  
+3. Use the password to unzip the dataset files.
 
 ## ✒️ Citation
 
@@ -47,6 +54,6 @@ If you find our data or work useful, please consider citing our paper:
 @inproceedings{yuan2026dunhuangbench,
   title={Dunhuang-Bench: How Well Do MLLMs Understand Cultural Heritage?},
   author={Yuan, Junyi and Zhang, Jian and Yu, Tianxiu and Zhou, Yanlin and Jin, Xiaobo and Wang, Qiufeng and Wu, Fangyu},
-  booktitle={Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL)},
+  booktitle={Findings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL)},
   year={2026}
 }
